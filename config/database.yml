@@ -8,7 +8,7 @@ development:
   database: diamonds_database
   pool: 5
   username: root
-  password: 
+  password: maheshwari
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -19,13 +19,13 @@ test:
   database: diamonds_database
   pool: 5
   username: root
-  password: 
+  password: maheshwari
   host: localhost
 
 production:
   adapter: mysql2
   database: diamonds_database
   pool: 5
-  username: diamonds_user
-  password: Diamonds@2015
+  username: root
+  password: maheshwari
   host: localhost
